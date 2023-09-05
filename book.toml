@@ -1,0 +1,11 @@
+[book]
+authors = ["pmnxis(Jinwoo Park)"]
+language = "ko"
+multilingual = false
+src = "src"
+title = "BillMock 한국어 매뉴얼"
+description = "BillMock SW/HW manual"
+
+[output.html]
+site-url = "/billmock-app-rs"
+git-repository-url = "https://github.com/pmnxis/billmock-app-rs"
