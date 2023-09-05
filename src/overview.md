@@ -21,6 +21,8 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 ## 펌웨어 프로그램
 Firmware software는 defacto로 쓰이던 `C` 언어가 아닌 Rust로 개발되었습니다. Rust를 신뢰해서 쓴 것도 있지만 Rust 로 mass production을 위한 embedded system에 적용이 가능 하다는 것을 검증하기위한 용도 또한 있습니다. 따라서 firmware source가 하나의 example-code 선례로서 남기를 바랍니다.
 
+NDA코드를 제외한 SW code는 [billmock-app-rs](https://github.com/pmnxis/billmock-app-rs) 에서 확인 가능합니다.
+
 ## 라이센스
 이 프로그램과 관련 자료는 Apache Software License 2.0의 조건에 따라 사용할 수 있으며, 이 조건은 Apache Software License 2.0에서 확인할 수 있습니다. 또한, MIT 라이선스에 따라 사용할 수도 있으며, 이 조건은 MIT License에서 확인할 수 있습니다.
 
