@@ -4,7 +4,7 @@ SPDX-FileCopyrightText: © 2023 Jinwoo Park (pmnxis@gmail.com)
 SPDX-License-Identifier: MIT OR Apache-2.0
 -->
 
-# Host side port map
+# Host side 핀 아웃
 
 ## Host Side Quick Terminal
 <table>

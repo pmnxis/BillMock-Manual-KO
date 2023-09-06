@@ -9,16 +9,14 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 각자 장단점이 있으니 둘 다 테스트 후 적합한 방법을 선택해주세요.
 
-## 전용 단자 제작-
-<!--### 전용 단자 제작-->
-<img src="images/53014.jpg" width="300" height="300">
+## 전용 단자 제작
+<div><center><img src="images/53014.jpg" width="300" height="300"></div></center>
 
   1. 핀 아웃 목차(포트 설명) 에서 사용할 하네스를 마련합니다.
   2. 연결합니다.
 
-## Cut previous harness and connect to terminal
-<!--### 기존 하네스에 터미널 단자 사용-->
-<img src="images/141r.jpg" width="300" height="250">
+## 기존 하네스에 터미널 단자 사용
+<div><center><img src="images/141r.jpg" width="300" height="250"></div></center>
 
   1. 선길이가 어느정도 여유가 있다는 가정하에, 본 제품을 설치할 지점에서 선을 자릅니다.
   2. 자른 선의 양쪽에 1cm (10 mm) 정도 도선이 보이는 상태로 피복을 벗깁니다.
