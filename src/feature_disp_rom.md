@@ -6,7 +6,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 # DisplayRom
 
-![display rom screen](./images/dip_switch_rom_disp_kokr.png) [Vend side (상단) 터미널](./port_vend_side.md#vend-side-quick-terminal)
+![display rom screen](./images/dip_switch_rom_disp_kokr.png)
 
 - 통상 운용중에 위와 같은 정보를 보기위해서는 DIP SWITCH상에서 [DIP-SWITCH 실행모드](./dip_switch.md#실행모드---application-mode)를 확인하여 설정해주십시오.
 
