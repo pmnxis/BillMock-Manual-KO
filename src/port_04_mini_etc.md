@@ -8,12 +8,10 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 ## Credit Card Reader Port
 
+![J1](./images/pcb_0v4_mini_port/J1.png)
+
 <table>
 <tr>
-<td>
-
-![J3](./images/pcb_0v4_port/J3.png)
-</td>
 <td>
 
 |                |
@@ -21,7 +19,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 |  |
 |  |
 | **Designator** |
-|  J3  |
+|  J1  |
 |  |
 |  |
 | **Role** |
@@ -38,6 +36,8 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 |  |
 | **Crimp** |
 | Molex 5263 |
+</td>
+<td>
 
 | **Pin #** | **Pin Name**   | 설명 |
 | :-------: | -------------- | --------- |
@@ -53,60 +53,14 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 ------------
 
-## DC Power Jack
-
-<table>
-<tr>
-<td>
-
-![J1](./images/pcb_0v4_port/J1.png)
-</td>
-<td>
-
-|                |
-| -------------- |
-|  |
-|  |
-| **Designator**     |
-|  J1  |
-|  |
-|  |
-| **Role** |
-| 별도 DC 전원 잭 |
-|  |
-|  |
-| **Connector**      |
-| DC Jack 5.5pi - 2.0pi |
-
-</td></tr>
-</table>
-
-- 12V 입력을 권장합니다. (최대 16V)
-- 하단 DC 잭 이외에 하단 왼쪽(J5), 하단 오른쪽(J4)의 10핀 몰렉스 포트로 받는 것도 권장합니다.
-- 상단 터미널 (J9)/ 상단 10핀 몰렉스(J7/J8)로 전원 입력을 하는 것은 비추천합니다.
-
-------------
-
 ### Program debugging (SWD/JTAG)
 
-<table>
-<tr>
-<td>
+![DEBUG](./images/pcb_0v4_mini_port/debug_port.png)
 
-![DEBUG](./images/pcb_0v4_port/debug_port.png)
-</td>
-<td>
-
-|                |
-| -------------- |
-|  |
-|  |
-| **Role** |
-| STM32 SWD |
-|  |
-|  |
-| **Connector** |
-| TC2030 |
+|  |  |
+| --- | --- |
+| **Role** | STM32 SWD |
+| **Connector** | TC2030 |
 
 </td></tr>
 </table>

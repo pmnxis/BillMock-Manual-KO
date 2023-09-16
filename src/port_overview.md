@@ -1,21 +1,22 @@
-<!--
-SPDX-FileCopyrightText: © 2023 Jinwoo Park (pmnxis@gmail.com)
+# 하드웨어 차이점 설명
 
-SPDX-License-Identifier: MIT OR Apache-2.0
--->
+| Mini 버젼 | 일반 버젼 |
+| ---- | ---- |
+| ![mini image](images/pcb_top_mini_0v4.png) | ![normal image](images/pcb_top_0v4.png) |
 
-# Port overview
+BillMock 하드웨어는 두가지 종류가 있습니다. 직사각형 모양을 한 작은 [BillMock Mini (직사각형)](./port_04_mini_overview.md)과 위아래로 터미널과 DC잭이 있는 정사각형 모양의 [BillMock (정사각형)](./port_04_overview.md) 이 있습니다.
 
-![Port Quick Look](./images/port_quick_look.png)
+Mini는 일반버젼에서 터미널과 DC잭, 추가 RS232포트를 제거했습니다. 가격이 더 저렴하며, 이미 하네스가 준비된 상태라면 좀 더 수월하게 설치할 수 있으며, 하네스를 구성하기에 매우 복잡하고 현장에서 터미널에 직접 연결을 하는 편이 나은 상황에선 일반버젼이 적합 할 수 있습니다.
 
-상단에는 Vend Side(진권에 관련된 지폐기, 동전기, 카드단말기 등) 커넥터가 배치되어 있으며,
+하지만 현장에서는 터미널로 매번 구성하는 것 보다 준비된 하네스로 설치를 마치는 것이 효율성이 좋으므로 Mini버젼을 권장 합니다.
 
-하단에는 Host Side(GAME I/O PCB 와 같은 실제 오락기기 메인보드 인터페이스) 커넥터가 배치되어 있습니다.
+## 목차
 
-좌측과 우측에 데칼코마니 패턴으로 같은 커넥터들이 배치되어있으며, 좌측은 Player 1, 우측은 Player 2를 위한 커넥터가 배치되어 있습니다.
-
-이러한 패턴으로 전반적인 커넥터 구성이 되어있으므로, 실제 설치나 운용시에 참고한다면 쉽게 커넥터에 와이어를 연결할 수 있습니다.
-
-개념적으로 본다면 기존 배선에서는 위에서 아래로 연결된 커넥터가 각각 끊어지고 위쪽의 커넥터와 아래쪽의 커넥터에 연결되고, 그 사이를 하드웨어와 소프트웨어가 관리하는 형태로 동작하며, 이러한 연결을 설계시에 의도 했습니다.
-
-이 외에도 전원 공급을 위한 커넥터, 디버그용 추가 RS232 커넥터, 프로그램 디버깅용 SWD(JTAG) 커넥터가 있습니다. 
+- [BillMock Mini (직사각형)](./port_04_mini_overview.md)
+    - [Vend side (상단)](./port_04_mini_vend_side.md)
+    - [Host Side (하단)](./port_04_mini_host_side.md)
+    - [기타](./port_04_mini_etc.md)
+- [BillMock (정사각형)](./port_04_overview.md)
+    - [Vend side (상단)](./port_vend_side.md)
+    - [Host Side (하단)](./port_host_side.md)
+    - [기타](./port_etc.md)

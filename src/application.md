@@ -8,7 +8,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 간략화된 프로그램 및 시그널 입출력 플로우는 아래와 같습니다. </br>
 
-![BillMock Diagram](images/BillMockDiagram-Short.png)
+![BillMock Diagram](images/billmock_logic_diagram_short.png)
 
 
 ## 대략적인 동작 개요
@@ -24,4 +24,5 @@ DIP Switch 설정과 적절한 배선 변경을 통하여 원하는 화폐지불
 - 기존 게임기에 1대의 카드 승인기 와 1대의 지폐기(코인기)로 스타트버턴 입력시, 1P/2P 관리
 - 기존 게임기에 1대의 지폐기(코인기)로 스타트 버턴 입력시, 1P/2P 관리
 - 입력신호 너비 강제 조정
+- 코인미터기 대신 누계 카드/지폐(동전) 정보 표시 [DisplayRom 상세 정보](./feature_disp_rom.md)
 - 사용자의 코드수정을 통한 더욱 복잡한 입출력 신호 변조
