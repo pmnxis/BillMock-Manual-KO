@@ -6,6 +6,8 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 
 # BillMock
 
+![real photo](images/pcb_0v4_port/BillMockPCB_0v4_square.jpg)
+
 | 앞면 사진 | 뒷면 사진 |
 | ---- | ---- |
 | ![top side image](images/pcb_top_0v4.png) | ![bottom side image](images/pcb_bot_0v4.png) | 

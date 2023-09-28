@@ -1,3 +1,9 @@
+<!--
+SPDX-FileCopyrightText: © 2023 Jinwoo Park (pmnxis@gmail.com)
+
+SPDX-License-Identifier: MIT OR Apache-2.0
+-->
+
 # 하드웨어 차이점 설명
 
 | Mini 버젼 | 일반 버젼 |
