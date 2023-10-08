@@ -49,6 +49,10 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh
 
 # Install probe-run for debug/flash firmware binary on target board.
 cargo install probe-run
+
+# Install cargo-binutils for analyze mem/flash usage.
+cargo install cargo-binutils
+rustup component add llvm-tools-preview
 ```
 
 ### Build
