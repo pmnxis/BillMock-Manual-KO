@@ -30,7 +30,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 | `9`       | `12V`  |  +극 전원 입력/출력, 제품 +극 전원 (12V 권장) |
 | `10`      | `GND`  |  -극 전원 입력/출력. 제품 -극 전원 |
 
-- Pin# 왼쪽 부터 카운트함
+- Pin# 오른쪽 부터 카운트함
 - `12V`, `GND`로 BillMock-HW 자체의 전원을 입력받을 수 도 있습니다.
 - 이 포트에서 나오는 전원 핀은 전원 출력용으로 사용 할 수 없습니다. 해당 포트로 들어오는 전원 입력이 차단 되는 경우, 역 전압이 흐르지 않습니다.
 - Credit card의 payment 신호를 받거나 VEND  입력 신호가  Active Low로 들어온 시점부터 VEND 출력 신호가 Toggle 신호가 끝날 때 까지 Busy 출력신호를 Active Low로 출력합니다.
@@ -60,7 +60,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 | `9`       | `12V`  |  +극 전원 입력/출력, 제품 +극 전원 (12V 권장) |
 | `10`      | `GND`  |  -극 전원 입력/출력. 제품 -극 전원 |
 
-- Pin# 왼쪽 부터 카운트함
+- Pin# 오른쪽 부터 카운트함
 - `12V`, `GND`로 BillMock-HW 자체의 전원을 입력받을 수 도 있습니다.
 - 이 포트에서 나오는 전원 핀은 전원 출력용으로 사용 할 수 없습니다. 해당 포트로 들어오는 전원 입력이 차단 되는 경우, 역 전압이 흐르지 않습니다.
 - Credit card의 payment 신호를 받거나 VEND  입력 신호가  Active Low로 들어온 시점부터 VEND 출력 신호가 Toggle 신호가 끝날 때 까지 Busy 출력신호를 Active Low로 출력합니다.
