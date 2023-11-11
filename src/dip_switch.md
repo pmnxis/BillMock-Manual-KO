@@ -79,5 +79,7 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 - `11` : DisplayRom
     > ![display rom screen](./images/dip_switch_rom_disp_kokr.png)
     > - BillMock의 펌웨어 정보와 카드 단말기 TID, 누계된 카드, 지폐(동전) 계수를 표시하며 코인미터기를 대신해서 쓸 수 있습니다.
+    > - 이 모드에서 빠져나오는 경우, [DisplayHwInfo](./feature_disp_hw_info.md)를 통해 하드웨어 정보가 표시됩니다.
+    > - SVC버턴은 10초이상 누르면 [Counter Reset](./feature_counter_reset.md) 기능을 통해 계수가 0으로 초기화 됩니다.
     > - 연결된 카드단말기의 TID가 변경되면, 누계 카드 계수는 0으로 초기화 됩니다.
     > 자세한 정보는 [DisplayRom 상세 정보](./feature_disp_rom.md) 를 참고해주십시오.

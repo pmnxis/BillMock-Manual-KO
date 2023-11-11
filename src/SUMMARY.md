@@ -10,6 +10,8 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 - [DIP Switch 설정](./dip_switch.md)
 - [프로그램 로직](./application.md)
     - [DisplayRom 상세 정보](./feature_disp_rom.md)
+    - [DisplayHwInfo 상세 정보](./feature_disp_hw_info.md)
+    - [Counter Reset 상세 정보](./feature_counter_reset.md)
 - [기기 설치](./installation.md)
 - [하드웨어 및 핀아웃 설명](./port_overview.md)
     - [BillMock Mini (직사각형)](./port_04_mini_overview.md)

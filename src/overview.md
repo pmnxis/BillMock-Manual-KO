@@ -13,8 +13,11 @@ SPDX-License-Identifier: MIT OR Apache-2.0
 현장에서 원하는 설정으로 쓰기위해 미리 설정된 I/O 리매핑을 DIP-Switch로 설정할 수 있으며, wire-map상으로는 HOST GAME PCB 와 지폐기기 사이에 설치가 됩니다. 
 
 ## 하드웨어
+![Actual BillMock PCB 0v5](./images/BillMockPCB_0v5_mini.jpg)
+최종 양산으로 채택하고 있는 Hardware revision은 0.5-MINI 이며, 프로그램 개발또한 해당 버젼에 맡게 진행 되고 있습니다.
+
 ![Actual BillMock PCB 0v4](./images/BillMockPCB_0v4.jpg)
-현재까지 0.2, 0.3, 0.4, 0.4-Mini 총 4가지의 Hardware revision이 있으며 실제로 사용 가능한 것은 0.4 와 0.4 Mini 에 맞춰서 개발되고 있습니다.
+이전에 개발된 하드웨어로는 0.2, 0.3, 0.4, 0.4-Mini 총 4가지의 Hardware revision이 있으며 이전 버젼중 추가로 사용 가능한 것은 0.4 와 0.4 Mini이 사용가능 합니다. (일부 SVC관련된 기능을 사용할 수 없음)
 
 핀맵이나 설치를 확인하기 위해서는 좌측의 목차에서 원하는 항목을 확인하십시오.
 
